@@ -10,9 +10,10 @@
 
 export const MOTEUR = {
   modele: "vitrine-3-niveaux",
-  version: "4.20",
+  version: "4.21",
   // Ce que sait faire cette version, pour information.
   capacites: [
+    "location : une boutique de TEST le dit sur chaque page, et se cache de Google",
     "location : le contrat se signe en ligne, au doigt, si le loueur l allume",
     "location : les conditions du loueur, article par article, avant de reserver",
     "location : les options de la boutique, que chaque vehicule peut retirer",
