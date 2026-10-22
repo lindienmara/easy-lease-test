@@ -1,0 +1,11 @@
+/* LE CSS DE LA BOUTIQUE, FABRIQUÉ À LA CONSTRUCTION
+   ─────────────────────────────────────────────────
+   Ces trois lignes sont remplacées, au moment de construire la boutique, par le
+   CSS des classes réellement utilisées — et par elles seules. Le fichier obtenu
+   pèse quelques kilo-octets, et la boutique le sert elle-même.
+
+   Avant, ce travail était fait dans le téléphone de chaque visiteur, à chaque
+   visite, par un programme téléchargé chez un tiers. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
