@@ -1,2 +1,21 @@
-node_modules
-dist
+node_modules/
+dist/
+
+# 🚨 LES SECRETS NE MONTENT JAMAIS SUR GITHUB.
+# Mesuré le 21 octobre 2026 : quatre boutiques avaient leur « .env.local »
+# SUIVI PAR GIT et donc envoyé sur GitHub. Il portait un VERCEL_OIDC_TOKEN,
+# écrit tout seul par « vercel link ». Les jetons étaient périmés — ils durent
+# 12 heures — mais le trou restait ouvert : le prochain « vercel link » en
+# aurait remis un.
+.env
+.env.*
+!.env.example
+
+# Les originaux mis de côté par outils/alleger-les-videos.mjs.
+# Ils ne doivent JAMAIS partir : ils doubleraient le poids de la boutique, et
+# c'est ce poids qui a saturé le stockage Vercel le 14 octobre 2026.
+videos-originaux/
+
+# Le lien local vers le projet Vercel. Il ne contient qu'un identifiant, pas
+# de secret, mais il n'a rien à faire dans le dépôt de la cliente.
+.vercel/
